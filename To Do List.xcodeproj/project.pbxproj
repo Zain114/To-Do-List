@@ -13,6 +13,9 @@
 		7B549BF91AFEC22A0049AC68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B549BF81AFEC22A0049AC68 /* Images.xcassets */; };
 		7B549BFC1AFEC22A0049AC68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B549BFA1AFEC22A0049AC68 /* LaunchScreen.xib */; };
 		7B549C081AFEC22A0049AC68 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B549C071AFEC22A0049AC68 /* To_Do_ListTests.swift */; };
+		7B549C121AFFDF720049AC68 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B549C111AFFDF720049AC68 /* ListCell.swift */; };
+		7B549C141AFFE0CA0049AC68 /* ListCellStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B549C131AFFE0CA0049AC68 /* ListCellStruct.swift */; };
+		7B549C1A1B06E5880049AC68 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B549C191B06E5880049AC68 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7B549C011AFEC22A0049AC68 /* To Do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B549C061AFEC22A0049AC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B549C071AFEC22A0049AC68 /* To_Do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListTests.swift; sourceTree = "<group>"; };
+		7B549C111AFFDF720049AC68 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		7B549C131AFFE0CA0049AC68 /* ListCellStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellStruct.swift; sourceTree = "<group>"; };
+		7B549C191B06E5880049AC68 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,14 @@
 		7B549BEE1AFEC22A0049AC68 /* To Do List */ = {
 			isa = PBXGroup;
 			children = (
-				7B549BF11AFEC22A0049AC68 /* AppDelegate.swift */,
+				7B549C191B06E5880049AC68 /* TextField.swift */,
+				7B549C111AFFDF720049AC68 /* ListCell.swift */,
+				7B549C131AFFE0CA0049AC68 /* ListCellStruct.swift */,
 				7B549BF31AFEC22A0049AC68 /* ViewController.swift */,
 				7B549BF51AFEC22A0049AC68 /* Main.storyboard */,
 				7B549BF81AFEC22A0049AC68 /* Images.xcassets */,
 				7B549BFA1AFEC22A0049AC68 /* LaunchScreen.xib */,
+				7B549BF11AFEC22A0049AC68 /* AppDelegate.swift */,
 				7B549BEF1AFEC22A0049AC68 /* Supporting Files */,
 			);
 			path = "To Do List";
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B549C141AFFE0CA0049AC68 /* ListCellStruct.swift in Sources */,
+				7B549C121AFFDF720049AC68 /* ListCell.swift in Sources */,
 				7B549BF41AFEC22A0049AC68 /* ViewController.swift in Sources */,
+				7B549C1A1B06E5880049AC68 /* TextField.swift in Sources */,
 				7B549BF21AFEC22A0049AC68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
